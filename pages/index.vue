@@ -11,7 +11,7 @@ setTimeout(async () => {
   about.value = data.value;
   Addresses.value = addresses.value;
   console.log(Addresses, "Addresses");
-}, 1000); 
+}, 5000); 
 </script>
 
 <template>
