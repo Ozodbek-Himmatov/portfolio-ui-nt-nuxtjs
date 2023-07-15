@@ -67,7 +67,7 @@ setTimeout(async () => {
             <a
               v-for="el in Addresses"
               target="_blank"
-              :href="el.link"
+              :href="el.address"
               class="p-2 rounded-md border border-slate-500 flex items-center justify-center bg-slate-700 hover:border-slate-700"
             >
               <Icon :name="el.icon" class="block text-white" />
