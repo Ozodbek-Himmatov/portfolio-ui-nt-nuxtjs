@@ -2,7 +2,6 @@
 const { data } = await useFetch(
   "https://portfolio-backend-nestjs.onrender.com/api/Addresses"
 );
-console.log(data.value);
 
 const navbar = ref(false);
 

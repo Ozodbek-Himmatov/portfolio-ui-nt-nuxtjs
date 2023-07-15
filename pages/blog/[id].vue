@@ -4,7 +4,6 @@ const { params } = useRoute();
 const { data } = await useFetch(
   `https://portfolio-backend-nestjs.onrender.com/api/posts/${params.id}`
 );
-console.log(data.value.content);
 </script>
 
 <template>

@@ -6,9 +6,7 @@ setTimeout(async () => {
     "https://portfolio-backend-nestjs.onrender.com/api/posts"
   );
   projects.value = data.value;
-  console.log(projects.value);
 }, 1000);
-console.log(projects.value);
 </script>
 
 <template>

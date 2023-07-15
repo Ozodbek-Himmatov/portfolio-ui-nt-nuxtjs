@@ -8,10 +8,10 @@ setTimeout(async () => {
   const { data: addresses } = useFetch(
     "https://portfolio-backend-nestjs.onrender.com/api/Addresses"
   );
-  console.log(addresses.value);
   about.value = data.value;
   Addresses.value = addresses.value;
-}, 1000);
+  console.log(Addresses.value);
+}, 1000); 
 </script>
 
 <template>
